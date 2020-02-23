@@ -25,7 +25,7 @@ def get_filters():
     # get user input for day of week (all, monday, tuesday, ... sunday)
     day = ui.prompt("Please enter a day of the week to filter the data ({}). Enter all to inlcude all days of the week: ".format(", ".join(map(lambda d: d.title(), ui.DAY_OF_THE_WEEK_DATA))), str, "day")
 
-    print('-'*100)    
+    print('-'*150)    
     selected_city = city
     return city, month, day
 
