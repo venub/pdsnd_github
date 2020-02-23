@@ -166,7 +166,7 @@ def print_raw_data(df):
         elif (show_raw_data.lower() == 'no'):
             break
         else:
-            print("Please enter a valid input yes or no.\n")
+            print("Please enter a valid response yes or no.\n")
 
 def main():    
     while True:
